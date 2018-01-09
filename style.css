@@ -1,0 +1,53 @@
+/*Reseteando los estilos por defecto */
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+  
+  @media screen and (max-width:480px) {
+    .back {
+      background-image: url("images/night.jpg");
+      background-size: cover;
+      
+      background-position: center;
+      height: 500px;
+    }
+    .kitten {
+      background-image: url("images/kitten-small.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+  }
+  
+  @media screen and (min-width:480px) and (max-width:780px) {
+    .back {
+      background-image: url("images/sunny-day.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+    }
+    .kitten {
+      background-image: url("images/kitten-medium.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+  }
+  
+  @media screen and (min-width:780px) and (max-width:1600px) {
+  
+    .back {
+      background-image: url("images/dawn.png");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+    }
+    .kitten {
+      background-image: url("images/kitten-large.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+  }
